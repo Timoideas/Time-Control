@@ -1,0 +1,30 @@
+[
+  {
+    "_id": "b53a1d40-4f03-4c76-8554-64d2f688c1b5",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:3000/api/activities",
+    "url": "localhost:3000/api/activities",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-07-24T17:01:39.047Z",
+    "modified": "2022-07-24T17:01:42.636Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "205c3170-c566-491d-a699-f8ee658ef7bb",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/api/activities",
+    "url": "http://localhost:3000/api/activities",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-07-24T17:01:47.515Z",
+    "modified": "2022-07-24T17:01:47.535Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]

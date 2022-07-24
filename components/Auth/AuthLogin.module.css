@@ -1,6 +1,7 @@
 /* Phone */
 .Container {
-	
+  height: 90%;
+  width: 90vw !important;
 }
 
 /* Tablet */
