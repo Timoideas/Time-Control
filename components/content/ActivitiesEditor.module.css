@@ -1,6 +1,8 @@
 /* Phone */
 .Container {
-	
+  position: fixed;
+  bottom: 0;
+  height: 60px;
 }
 
 /* Tablet */

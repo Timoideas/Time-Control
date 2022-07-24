@@ -7,3 +7,7 @@
   height: 100%;
   flex-direction: column;
 }
+.Container > div {
+  border: 0.2vh solid #fa0;
+  width: 100%;
+}

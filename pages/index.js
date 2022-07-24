@@ -5,7 +5,8 @@ import { useState } from "react";
 import DailyTimeBar from "components/header/DailyTimeBar.component";
 import DailySummary from "components/content/DailySummary.component";
 import AccountAuth from "components/content/AccountAuth.component";
-import ActtivitiesList from "components/content/ActtivitiesList.component";
+import ActivitiesList from "components/content/ActivitiesList.component";
+import ActivitiesEditor from "components/content/ActivitiesEditor.component";
 
 export default function Index() {
   return (
@@ -17,7 +18,8 @@ export default function Index() {
             <DailyTimeBar />
             <AccountAuth />
             <DailySummary />
-            <ActtivitiesList />
+            <ActivitiesList />
+            <ActivitiesEditor />
           </div>
         </Section>
       </Body>
