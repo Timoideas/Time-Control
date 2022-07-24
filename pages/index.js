@@ -10,7 +10,7 @@ import ActivitiesEditor from "components/content/ActivitiesEditor.component";
 import AuthLogin from "components/Auth/AuthLogin.component";
 
 export default function Index({ activities }) {
-  const [Auth, setAuth] = useState(true);
+  const [Auth, setAuth] = useState(false);
   const [Activities, setActivities] = useState([activities.data]);
   return (
     <>
@@ -38,12 +38,12 @@ export default function Index({ activities }) {
 export async function getServerSideProps({ req }) {
   const protocol = req.headers["x-forwarded-proto"] || "http";
   const baseUrl = req ? `${protocol}://${req.headers.host}` : "";
-  const activities = await fetch(baseUrl + "/api/activities").then((res) =>
-    res.json()
-  );
+  // const activities = await fetch(baseUrl + "/api/activities").then((res) =>
+  //   res.json()
+  // );
   return {
     props: {
-      activities,
+      activities: { data: [] },
     },
   };
 }

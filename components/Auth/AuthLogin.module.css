@@ -1,7 +1,23 @@
 /* Phone */
 .Container {
   height: 90%;
-  width: 90vw !important;
+  width: 90vw;
+  max-width: 370px;
+  position: fixed;
+  bottom: 30px;
+  flex-direction: column;
+  gap: 3vh;
+}
+.LoginForm,
+.RegistrationForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1vh;
+}
+.NewAccount {
+  flex-direction: column;
 }
 
 /* Tablet */
